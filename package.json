@@ -1,16 +1,20 @@
 {
   "name": "leap-record",
   "version": "0.0.1",
-  "description": "Record a gesture sample with your leap motion device",
+  "description": "Record a motion sample with your leap motion device",
   "bin": {"leap-record": "./bin/record"},
   "main": "index.js",
   "dependencies": {
-    "split": "~0.2",
-    "through": ">=2",
     "websocket-stream": ">=0.3.3"
   },
-  "repository": "https://github.com/joyrexus/leap-record.git",
+  "scripts": {
+    "build": "coffee -o . -c src/index.coffee"
+  },
   "keywords": [ "stream", "filter", "leap" ],
   "author": "J. Voigt",
-  "license": "MIT"
+  "license": "BSD-2-Clause",
+  "repository": { 
+    "type" : "git", 
+    "url" : "http://github.com/joyrexus/ldj-pipe.git"
+  }
 }
