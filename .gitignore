@@ -2,3 +2,4 @@
 node_modules
 *.ldj
 *.ldjson
+*.json.lsv
