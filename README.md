@@ -1,4 +1,4 @@
-# Leap Record
+# leap-record
 
 Record a gesture sample with your [Leap Motion](https://www.leapmotion.com) device.
 
