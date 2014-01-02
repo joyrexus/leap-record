@@ -6,7 +6,7 @@ Record a gesture sample with your [Leap Motion](https://www.leapmotion.com) devi
 
 You get `leap-record`, a simple command-line utility that redirects the JSON-encoded [frames](https://github.com/leapmotion/leapjs/blob/master/PROTOCOL.md#frames) emitted from [the Leap's websocket stream](https://github.com/leapmotion/leapjs/blob/master/PROTOCOL.md) to a file.  The resulting motion sample consists of [line-delimited JSON](http://en.wikipedia.org/wiki/Line_Delimited_JSON).  To indicate the nature of the formatting, you'll want to use either `.ldj` or `.ldjson` as your file extension.
 
-Install with `npm install -g`.
+Install with `npm install -g leap-record`.
 
 
 ## Usage
